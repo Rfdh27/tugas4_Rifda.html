@@ -1,0 +1,7 @@
+{
+    "git.ignoreLimitWarning": true,
+    "git.enabled": true,
+    "git.suggestSmartCommit": true,
+    "git.branchRandomName.enable": false,
+    "git.autorefresh": true
+}

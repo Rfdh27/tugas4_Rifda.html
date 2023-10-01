@@ -1,0 +1,137 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+body{
+    font-family: 'Segoe UI';
+    background-color: #d9d1ff;
+    position: relative;
+    color: black;
+}
+h1{
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #242747;
+    color: #d9d1ff;
+
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+h2{
+    background-color: #242747;
+    color: #d9d1ff;
+}
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+img{
+    margin-top: 0;
+    padding-top: 0;
+    width: 300px;
+    height: 200px;
+}
+.h1{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.h1 p{
+    margin-left: 2rem;
+}
+.h2{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.h2 p{
+    margin-left: 2rem;
+}
+.h3{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.h3 p{
+    margin-left: 2rem;
+}
+.h4{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;  
+}
+.h4 p{
+    margin-left: 2rem;
+}
+.h5{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+}
+.h5 p{
+    margin-left: 2rem;
+}
+.link{
+    width: 200px;
+    margin: 10px 5px;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #242747;
+    background: transparent;
+    border: 3px solid #242747;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
+hr{
+    background-color: #242747;
+}
+.penutup p{
+    font-size: larger;
+}
+.me{
+    font-size: larger;
+    font-weight: bold;
+    width: 120px;
+    cursor: pointer;
+    background-color: #242747;
+    color: #d9d1ff;
+}
+.kontak p{
+    font-size: large;
+    font: bold;
+    font-family: georgia;
+}
+.kontak ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+
+}
+.kontak ul li a{
+    color: #242747;
+    text-transform: uppercase;
+    float: left;
+}
+.kontak ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #242747;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.kontak ul li:hover::after{
+    width: 100%;
+}
